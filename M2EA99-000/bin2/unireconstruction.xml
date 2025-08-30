@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<unireconstruction xactrevision="11900aec3 2020-09-22 18:19:41 +0000" version="1.1">
+    <conebeam>
+        <reconstruct appodizationFilter="Sinus" iterations="1" yfileformat="16bit Tiff" format="16 bit Tiff" rangeMin="-0.5" filter="Tukey" appodization="75" filterValue="80" rangeMax="3" methode="Filtered Backprojection (Tomography)"/>
+        <volume_acquisition>
+            <voxelSize X="0.0319955" Y="0.0319955" Z="0.0319955"/>
+            <size X="722" Y="864" Z="722"/>
+            <offset X="0.00" Y="-162.165" Z="0.00"/>
+            <testSlice X="361" Y="433" Z="361"/>
+            <rotate X="0" Y="0" Z="0"/>
+        </volume_acquisition>
+        <volume>
+            <voxelSize X="0.0319955" Y="0.0319955" Z="0.0319955"/>
+            <size X="640" Y="840" Z="640"/>
+            <offset X="0" Y="-162.16" Z="0"/>
+            <testSlice X="320" Y="421" Z="320"/>
+            <rotate X="0" Y="0" Z="0"/>
+        </volume>
+        <profile images="800" turns="1" acquisition="Normal"/>
+        <correction offsetY="0" trapezoidY="0" offsetXCorrectionIndex="0" offsetYShift="0" offsetX="9.5" offsetXShift="0" shearing="0" tiltZ="-0.01" trapezoidX="0" offsetXStack="0" TrapXAndScaleWithOffsetX="0" aspectRatio="0" scale="0" helicoilOffsetXCorrection="0"/>
+        <ring_filter defectEnabled="0" kernel="5" selectionEnabled="0" replaceStatic="0" replaceDefect="0" ringEnabled="1" falseDetectionLevel="0" replaceNoisy="0"/>
+        <beam black_level="0" clamp="2000" shift="0" spectrum="1 0 0 0 0 0 0"/>
+        <phase_filter vector_auto="" enabled="0" type="MANU" manu_para="0.05"/>
+        <spot horizontal="-0.34375 -0.322239 -0.300727 -0.279216 -0.257705 -0.236194 -0.214682 -0.193171 -0.17166 -0.150149 -0.128637 -0.107126 -0.0856148 -0.0641036 -0.0425923 -0.021081 0.00043023 0.0219415 0.0434527 0.064964 0.0864753 0.107987 0.129498 0.151009 0.17252 0.194032 0.215543 0.237054 0.258565 0.280077 0.301588 0.323099" scale="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" vertical="-0.03125 -0.0292944 -0.0273389 -0.0253833 -0.0234277 -0.0214722 -0.0195166 -0.017561 -0.0156054 -0.0136499 -0.0116943 -0.00973874 -0.00778317 -0.0058276 -0.00387203 -0.00191646 3.91118e-05 0.00199468 0.00395025 0.00590582 0.00786139 0.00981696 0.0117725 0.0137281 0.0156837 0.0176392 0.0195948 0.0215504 0.0235059 0.0254615 0.0274171 0.0293727"/>
+        <projections start="0" cropleft="1" cropright="1" unused="" step="1" end="799"/>
+        <scatter parameters="" threshold="0" bottomLimit="0"/>
+        <imagej imagesProcessed="0"/>
+    </conebeam>
+    <acquisitioninfo>
+        <xray current="190" voltage="120"/>
+        <geometry sdd="765.755" sod="96.4597"/>
+    </acquisitioninfo>
+</unireconstruction>
